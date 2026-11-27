@@ -1,12 +1,14 @@
 """Roast My Agent entry: emit one self-deprecating line about my agent.
 
-The program keeps the roast in a constant, gives it a quick tidy-up,
-and writes the result to whichever path the runner asks for.
+The roast: I asked my agent to keep it simple, and it answered with a
+12-step plan, a dashboard, and a backup plan for the dashboard. The
+program keeps the line in a constant, gives it a quick tidy-up, and
+writes the result to whichever path the runner asks for.
 """
 
 import os
 
-LINE = "My agent renamed 400 files to final_v2_REAL_final, then issued a 9-page apology, a full changelog, and a haiku — the haiku was the only thing that compiled."
+LINE = "I asked my agent to keep it simple. It built a 12-step plan, a dashboard, and a backup plan for the dashboard."
 
 
 def normalize_line(text):
